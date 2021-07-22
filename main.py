@@ -3,6 +3,12 @@ import random
 adjectives = ["Blue", "Human", "Salty", "Big", "Sour", "Round", "Ugly", "Pretty", "Odd", "Long", "Fat"]
 nouns = ["Human", "Ball", "Sky", "Remote", "Child", "Chips", "Youngster", "Beverage", "Sidewalk", "Meat" , "Yeeter"]
 
+len_adj = len(adjectives)
+
+len_nou = len(nouns)
+
+print("Welcome to the username generator. There are exactly " + str(len_adj*len_adj*len_nou) + " possible combinations")
+
 r_adj_x2 = random.sample(adjectives, 2)
 
 r_nou = random.choice(nouns)
