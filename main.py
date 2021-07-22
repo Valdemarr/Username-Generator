@@ -1,7 +1,7 @@
 import random
 
-adjectives = ["Blue", "Human", "Salty", "Big", "Sour", "Round", "Ugly", "Pretty", "Odd", "Long", "Fat"]
-nouns = ["Human", "Ball", "Sky", "Remote", "Child", "Chips", "Youngster", "Beverage", "Sidewalk", "Meat" , "Yeeter"]
+adjectives = ["Blue", "Human", "Salty", "Big", "Sour", "Round", "Ugly", "Pretty", "Odd", "Long", "Fat", "Smart", "Laughing", "Fast", "Speedy", "Catty", "Dirty"]
+nouns = ["Human", "Ball", "Sky", "Remote", "Child", "Chips", "Youngster", "Beverage", "Sidewalk", "Meat" , "Yeeter", "Juggler", "Thrower", "Maker", "Figther"]
 
 len_adj = len(adjectives)
 
@@ -24,5 +24,3 @@ elif reply == "N" or reply == "n":
   print(f" Your name is: {r_adj_x2[0]}{r_adj_x2[1]}{r_nou}")
 else:
   print (f"You should really learn to read instructions... But here's your username without numbers: {r_adj_x2[0]}{r_adj_x2[1]}{r_nou}")
-
-#Print are you ready for a name? we have len(adjectives) x len(nouns) unique combinations
