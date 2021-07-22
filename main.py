@@ -1,7 +1,7 @@
 import random
 
 adjectives = ["Blue", "Human", "Salty", "Big", "Sour", "Round", "Ugly", "Pretty", "Odd", "Long", "Fat"]
-nouns = ["Human", "Ball", "Sky", "Remote", "Child", "Chips", "Youngster", "Bevarage", "Sidewalk", "Meat"]
+nouns = ["Human", "Ball", "Sky", "Remote", "Child", "Chips", "Youngster", "Bevarage", "Sidewalk", "Meat" , "Yeeter"]
 
 two_r_adj = random.sample(adjectives, 2)
 
