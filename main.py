@@ -7,4 +7,4 @@ two_r_adj = random.sample(adjectives, 2)
 
 r_nou = random.choice(nouns)
 
-print(f" Your name is: {two_r_adj[0]} {two_r_adj[1]} {r_nou}")
+print(f" Your name is: {two_r_adj[0]}{two_r_adj[1]}{r_nou}")
