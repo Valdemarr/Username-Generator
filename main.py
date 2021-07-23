@@ -1,4 +1,4 @@
-import random as random
+import random as ran
 import pandas
 
 #Importing data from Excel spreadsheet
@@ -14,12 +14,10 @@ len_nou = len(nouns)
 #Intro with calculation of unique combinations
 print("Welcome to the username generator. There are exactly " + str(len_adj*len_adj*len_nou) + " unique combinations")
 
-#Picking random adjectives, nouns and numbers(from 1-100)
-r_adj_x2 = random.sample(adjectives, 2)
-
-r_nou = random.choice(nouns)
-
-r_num = random.choice(range(10, 101))
+#Picking ran adjectives, nouns and numbers(from 1-100)
+r_adj_x2 = ran.sample(adjectives, 2)
+r_nou = ran.choice(nouns)
+r_num = ran.choice(range(10, 101))
 
 #Option of adding number to username
 use_numbers = False
